@@ -1,5 +1,5 @@
 {
-  "name": "lighthouse-ci",
+  "name": "lighthouse-ci-custom-flags",
   "version": "1.0.3",
   "description": "CLI implementation for running Lighthouse with any CI tool",
   "scripts": {
@@ -52,7 +52,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andreasonny83/lighthouse-ci.git"
+    "url": "git+https://github.com/sivaramgudivaka/lighthouse-ci.git"
   },
   "bugs": {
     "url": "https://github.com/andreasonny83/lighthouse-ci.git/issues"
