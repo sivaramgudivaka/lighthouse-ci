@@ -49,7 +49,7 @@
     }
   },
   "jest": {
-	"testURL": "http://localhost/"
+    "testURL": "http://localhost/"
   },
   "author": "Andrea Sonny <andreasonny83@gmail.com>",
   "license": "MIT",
