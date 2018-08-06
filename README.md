@@ -51,8 +51,8 @@ $ lighthouse-ci --help
   Original Lighthouse flags
     --disable-device-emulation    Disable Nexus 5X emulation
     --throttling-method=<method>  Controls throttling method         [choices: "devtools", "provided", "simulate"]
-    For list of full flags, see [Lighthouse cli options](https://github.com/GoogleChrome/lighthouse#cli-options)
 ```
+For list of supported flags, see [Lighthouse cli options](https://github.com/GoogleChrome/lighthouse#cli-options)
 
 ## License
 
