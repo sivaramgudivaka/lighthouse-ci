@@ -1,7 +1,7 @@
 # Lighthouse CI
 
-[![npm version](https://badge.fury.io/js/lighthouse-ci.svg)](https://badge.fury.io/js/lighthouse-ci)
-[![npm](https://img.shields.io/npm/dt/lighthouse-ci.svg)](https://www.npmjs.com/package/lighthouse-ci)
+[![npm version](https://badge.fury.io/js/lighthouse-ci-custom-flags.svg)](https://badge.fury.io/js/lighthouse-ci-custom-flags)
+[![npm](https://img.shields.io/npm/dt/lighthouse-ci.svg)](https://www.npmjs.com/package/lighthouse-ci-custom-flags)
 [![Known Vulnerabilities](https://snyk.io/test/github/andreasonny83/lighthouse-ci/badge.svg?targetFile=package.json)](https://snyk.io/test/github/andreasonny83/lighthouse-ci?targetFile=package.json)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
@@ -15,7 +15,7 @@
 ## Install
 
 ```
-$ npm install -g lighthouse-ci
+$ npm install -g lighthouse-ci-custom-flags
 ```
 
 ## Usage
@@ -47,6 +47,11 @@ $ lighthouse-ci --help
     --accessibility=<threshold>   Specify a minimal accessibility score for the CI to pass.
     --best-practice=<threshold>   Specify a minimal best-practice score for the CI to pass.
     --seo=<threshold>             Specify a minimal seo score for the CI to pass.
+  
+  Original Lighthouse flags
+    --disable-device-emulation    Disable Nexus 5X emulation
+    --throttling-method=<method>  Controls throttling method         [choices: "devtools", "provided", "simulate"]
+    For list of full flags, see [Lighthouse cli options](https://github.com/GoogleChrome/lighthouse#cli-options)
 ```
 
 ## License
