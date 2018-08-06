@@ -48,6 +48,9 @@
       ]
     }
   },
+  "jest": {
+	"testURL": "http://localhost/"
+  },
   "author": "Andrea Sonny <andreasonny83@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -55,7 +58,7 @@
     "url": "git+https://github.com/sivaramgudivaka/lighthouse-ci.git"
   },
   "bugs": {
-    "url": "https://github.com/andreasonny83/lighthouse-ci.git/issues"
+    "url": "https://github.com/sivaramgudivaka/lighthouse-ci.git/issues"
   },
-  "homepage": "https://github.com/andreasonny83/lighthouse-ci.git#readme"
+  "homepage": "https://github.com/sivaramgudivaka/lighthouse-ci.git#readme"
 }
